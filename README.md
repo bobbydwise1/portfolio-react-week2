@@ -33,6 +33,7 @@ $ npm run start
 * _This is only a static layout, in preparation for React state elements._
 * _See the following weblink for the rules this game is based on:_
 http://history.chess.free.fr/tamerlane2.htm#Moves
+* _The ancient version of this game is much more complex and "bloody".  The modern rules attempt to slow the game down and add more strategy._
 
 ## Known Bugs
 
