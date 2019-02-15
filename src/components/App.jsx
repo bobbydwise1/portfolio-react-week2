@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 
-
+import Gameboard from './gameboard';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
 import MySampleImage from '../assets/images/testimage.png';
@@ -25,7 +25,7 @@ function App(){
       <Header/>
       <Switch>
 
-
+        <Route component={Gameboard} />
         <Route component={Error404} />
       </Switch>
     </div>
