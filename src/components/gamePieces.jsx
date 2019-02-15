@@ -66,7 +66,13 @@ function GamePieces(){
     [1,1,1],
     [0,-1,0],
     [0,0,0]
-  ]);
+  ]);  //note promots to queen on last rank
+
+  const queen = math.matrix([
+    [11,11,11],
+    [11,-1,11],
+    [11,11,11]
+  ]); //note does not initially appear in game.  Pawn promots to queen on last rank, prince promotes to queen on 9th rank.
 
   return (
     <h1 style={compBox}>YOU MADE IT!  Gamepieces</h1>
