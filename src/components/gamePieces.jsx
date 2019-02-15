@@ -5,14 +5,14 @@ import * as math from 'mathjs';
 function GamePieces(){
   const compBox = {
     border: "solid black"
-  }
+  };
 
   const GridElevenStyle = {
     display: "grid",
-    gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr"
+    gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr",
     gridAutoRows: "min-content",
     margin: "0"
-  }
+  };
 
 //consider making each piece a class
   const king = math.matrix([
@@ -75,7 +75,7 @@ function GamePieces(){
 
   return (
     <h1 style={compBox}>YOU MADE IT!  Gamepieces</h1>
-      <div style={GridElevenStyle}>
+      <div>
         <div><h1>1</h1></div>
         <div><h1>2</h1></div>
         <div><h1>3</h1></div>

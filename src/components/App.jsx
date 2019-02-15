@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from './Header';
 import MoveHistory from './movehistory';
-import Gameboard from './gameboard';
-import CapturedBox from './capturedbox';
-import ChatBox from './chatbox';
+import Welcome from './welcome';
+import GameRoute from './gameroute';
+
 import TestMathJS from './testmathjs';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
 import MySampleImage from '../assets/images/testimage.png';
 import MyAnotherTestImage from '../assets/images/testwide.png';
+import { Link } from 'react-router-dom';
 
 function App(){
   const topLineImageStyle = {
@@ -29,12 +30,11 @@ function App(){
         <img src={MyAnotherTestImage} style={mainImageStyle}/>
       </div>
       <Header/>
-        <Route component={MoveHistory} />
-        <Route component={Gameboard} />
-        <Route component={CapturedBox} />
-        <Route component={ChatBox} />
-        <Route component={TestMathJS} />
-
+      <Switch>
+        <Route exact path='/' component={Welcome}/>
+        <Route path='/gameroute' component={GameRoute}/>
+        <Route component={Error404}/>
+      </Switch>
     </div>
   );
 }
