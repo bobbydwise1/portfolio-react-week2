@@ -6,6 +6,11 @@ function GamePieces(){
   const compBox = {
     border: "solid black"
   }
+
+  const GridElevenStyle = {
+    display: "grid"
+  }
+
 //consider making each piece a class
   const king = math.matrix([
     [1,1,1],
