@@ -1,12 +1,12 @@
-# _Chess Variant - Medieval Persia._
+# _Chess Variant - Tamerlame 2000._
 
-#### _A variant of chess originating from medieval Persia.  Also called Tamerlame Chess._
+#### _A variant of chess originating from medieval Persia, but updated with modern rules.  Also called Tamerlame 2000 Chess._
 
 #### By _**Robert Lee**_
 
 ## Description
 
-_A variant of chess originating from ancient Persia, created in React._
+_A variant of chess, created in React._
 
 ## Setup/Installation Requirements
 
@@ -31,6 +31,8 @@ $ npm run start
 ## Working Features
 
 * _This is only a static layout, in preparation for React state elements._
+* _See the following weblink for the rules this game is based on:_
+http://history.chess.free.fr/tamerlane2.htm#Moves
 
 ## Known Bugs
 
