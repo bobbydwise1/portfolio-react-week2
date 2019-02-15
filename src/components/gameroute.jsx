@@ -8,12 +8,12 @@ import ChatBox from './chatbox';
 
 function GameRoute(){
   const compBox = {
-    border: "solid black"
+    border: "solid yellow"
   }
 
   return (
-    <div>
-    <h1 style={compBox}>YOU MADE IT!  Gamepieces</h1>
+    <div style={compBox}>
+      <h1>This is the GameRoute Component.</h1>
       <MoveHistory></MoveHistory>
       <Gameboard></Gameboard>
       <CapturedBox></CapturedBox>

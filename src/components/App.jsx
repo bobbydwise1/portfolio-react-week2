@@ -14,13 +14,13 @@ function App(){
     display: "inline-block",
   }
   const mainImageStyle = {
-    width: "25%",
+    width: "10%",
     height: "auto"
   }
   const compBox = {
-    border: "solid black"
+    border: "solid red"
   }
-  
+
   return (
     <div style={compBox}>
       <div style={topLineImageStyle}>

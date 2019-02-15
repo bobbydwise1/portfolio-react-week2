@@ -3,7 +3,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 
 function CapturedBox(){
   const compBox = {
-    border: "solid black"
+    border: "solid indigo"
   }
   return (
     <h1 style={compBox}>YOU MADE IT!  CAPTURED BOX</h1>

@@ -3,7 +3,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 
 function ChatBox(){
   const compBox = {
-    border: "solid black"
+    border: "solid violet"
   }
   return (
     <div>

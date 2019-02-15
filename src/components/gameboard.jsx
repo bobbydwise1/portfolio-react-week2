@@ -4,7 +4,7 @@ import * as math from 'mathjs';
 
 function Gameboard(){
   const compBox = {
-    border: "solid black"
+    border: "solid blue"
   }
 
   const gameSystem = math.matrix([
@@ -25,7 +25,9 @@ function Gameboard(){
 
 
   return (
-    <h1 style={compBox}>YOU MADE IT!  GAMEBOBARD</h1>
+    <div style={compBox}>
+      <h1>YOU MADE IT!  GAMEBOBARD</h1>
+    </div>
   );
 }
 
