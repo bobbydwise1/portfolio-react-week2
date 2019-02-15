@@ -16,8 +16,11 @@ function App(){
     width: "25%",
     height: "auto"
   }
+  const compBox = {
+    border: "solid black"
+  }
   return (
-    <div>
+    <div style={compBox}>
       <div style={topLineImageStyle}>
         <img src={MySampleImage} style={mainImageStyle}/>
         <img src={MyAnotherTestImage} style={mainImageStyle}/>

@@ -13,6 +13,9 @@ const render = (Component) => {
     </AppContainer>,
     document.getElementById('react-app-root')
   );
+  const compBox = {
+    border: "solid black"
+  }
 };
 
 render(App);
