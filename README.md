@@ -42,7 +42,7 @@ $ npm run start
 
 ## Technologies Used
 
-* _Javascript, jQuery, HTML, CSS, Bootstrap, Atom, NPM, React._
+* _Javascript, jQuery, HTML, CSS, Bootstrap, Atom, NPM, Webpack, React libraries, math.js library._
 
 ### License
 

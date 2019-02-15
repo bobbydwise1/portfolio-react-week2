@@ -24,8 +24,8 @@ function App(){
       </div>
       <Header/>
       <Switch>
-        <Route exact path='/' component={} />
-        <Route path='/rules' component={} />
+
+
         <Route component={Error404} />
       </Switch>
     </div>
