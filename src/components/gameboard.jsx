@@ -3,7 +3,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 import * as math from 'mathjs';
 import PropTypes from 'prop-types';
 
-function Gameboard(props){
+function Gameboard(){
   const compBox = {
     border: "solid blue"
   }
@@ -24,18 +24,16 @@ function Gameboard(props){
     [1,1,1,1,1,1,1,1,1,1,1,1,1],
   ]);
 
-
-
+console.table(gameSystem);
+console.log(gameSystem);
   return (
     <div style={compBox}>
       <h1>YOU MADE IT!  GAMEBOBARD</h1>
-      <h1>{props.index}</h1>
+      <h1> {gameSystem._data} </h1>
     </div>
   );
 }
 
-GameBoard.propTypes = {
-  value: PropTypes.string
-};
+
 
 export default Gameboard;
