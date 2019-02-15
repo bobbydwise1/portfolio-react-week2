@@ -11,13 +11,21 @@ function GameRoute(){
     border: "solid yellow"
   }
 
+  const gameBoardGrid = {
+    display: "grid",
+    gridTemplateColumns: "1fr 3fr 1fr 1fr",
+    gridMargin: "auto"
+  }
+
   return (
     <div style={compBox}>
       <h1>This is the GameRoute Component.</h1>
-      <MoveHistory></MoveHistory>
-      <Gameboard></Gameboard>
-      <CapturedBox></CapturedBox>
-      <ChatBox></ChatBox>
+      <div style={gameBoardGrid}>
+        <MoveHistory></MoveHistory>
+        <Gameboard></Gameboard>
+        <CapturedBox></CapturedBox>
+        <ChatBox></ChatBox>
+      </div>
     </div>
   );
 }
