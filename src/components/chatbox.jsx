@@ -6,7 +6,9 @@ function ChatBox(){
     border: "solid black"
   }
   return (
+    <div>
     <h1 style={compBox}>YOU MADE IT!  CHATBOX</h1>
+    </div>
   );
 }
 

@@ -3,8 +3,6 @@ import Header from './Header';
 import MoveHistory from './movehistory';
 import Welcome from './welcome';
 import GameRoute from './gameroute';
-
-import TestMathJS from './testmathjs';
 import Error404 from './Error404';
 import { Switch, Route, Link } from 'react-router-dom';
 import MySampleImage from '../assets/images/testimage.png';
@@ -22,6 +20,7 @@ function App(){
   const compBox = {
     border: "solid black"
   }
+  
   return (
     <div style={compBox}>
       <div style={topLineImageStyle}>

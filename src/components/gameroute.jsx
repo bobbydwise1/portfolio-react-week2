@@ -12,11 +12,13 @@ function GameRoute(){
   }
 
   return (
+    <div>
     <h1 style={compBox}>YOU MADE IT!  Gamepieces</h1>
       <MoveHistory></MoveHistory>
       <Gameboard></Gameboard>
       <CapturedBox></CapturedBox>
       <ChatBox></ChatBox>
+    </div>
   );
 }
 
