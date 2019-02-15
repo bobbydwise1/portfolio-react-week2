@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Gameboard(){
+function CapturedBox(){
   const compBox = {
     border: "solid black"
   }
   return (
-    <h1 style={compBox}>YOU MADE IT!  GAMEBOBARD</h1>
+    <h1 style={compBox}>YOU MADE IT!  CAPTURED BOX</h1>
   );
 }
 
-export default Gameboard;
+export default CapturedBox;

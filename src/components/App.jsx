@@ -1,7 +1,9 @@
 import React from 'react';
 import Header from './Header';
-
+import MoveHistory from './movehistory';
 import Gameboard from './gameboard';
+import CapturedBox from './capturedbox';
+import ChatBox from './chatbox';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
 import MySampleImage from '../assets/images/testimage.png';
@@ -26,11 +28,11 @@ function App(){
         <img src={MyAnotherTestImage} style={mainImageStyle}/>
       </div>
       <Header/>
-      <Switch>
-
+        <Route component={MoveHistory} />
         <Route component={Gameboard} />
-        <Route component={Error404} />
-      </Switch>
+        <Route component={CapturedBox} />
+        <Route component={ChatBox} />
+
     </div>
   );
 }
