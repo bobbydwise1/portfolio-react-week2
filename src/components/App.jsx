@@ -6,10 +6,9 @@ import GameRoute from './gameroute';
 
 import TestMathJS from './testmathjs';
 import Error404 from './Error404';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
 import MySampleImage from '../assets/images/testimage.png';
 import MyAnotherTestImage from '../assets/images/testwide.png';
-import { Link } from 'react-router-dom';
 
 function App(){
   const topLineImageStyle = {

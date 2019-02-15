@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
 import * as math from 'mathjs';
 import MoveHistory from './movehistory';
 import Gameboard from './gameboard';
