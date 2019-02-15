@@ -6,7 +6,7 @@ function MoveHistory(){
     border: "solid green"
   }
   return (
-    <h1 style={compBox}>YOU MADE IT! MOVE HISTORY</h1>
+    <h1 style={compBox}>MOVE HISTORY</h1>
   );
 }
 

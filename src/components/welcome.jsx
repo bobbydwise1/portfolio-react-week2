@@ -7,7 +7,7 @@ function Welcome(){
   }
 
   return (
-    <h1 style={compBox}>YOU MADE IT!  Welcome</h1>
+    <h1 style={compBox}>Welcome</h1>
   );
 }
 

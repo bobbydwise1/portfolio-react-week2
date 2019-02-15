@@ -6,7 +6,7 @@ function CapturedBox(){
     border: "solid indigo"
   }
   return (
-    <h1 style={compBox}>YOU MADE IT!  CAPTURED BOX</h1>
+    <h1 style={compBox}>CAPTURED BOX</h1>
   );
 }
 

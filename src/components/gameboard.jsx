@@ -24,12 +24,10 @@ function Gameboard(){
     [1,1,1,1,1,1,1,1,1,1,1,1,1],
   ]);
 
-console.table(gameSystem);
-console.log(gameSystem);
   return (
     <div style={compBox}>
-      <h1>YOU MADE IT!  GAMEBOBARD</h1>
-      <h1> {gameSystem._data} </h1>
+      <h1>GAMEBOBARD</h1>
+      <p> {gameSystem._data} </p>
     </div>
   );
 }
