@@ -15,7 +15,8 @@ function GameRoute(){
   const gameBoardGrid = {
     display: "grid",
     gridTemplateColumns: "1fr 3fr 1fr 1fr",
-    gridMargin: "auto"
+    padding: "10px",
+    margin: "10px"
   }
 
   return (

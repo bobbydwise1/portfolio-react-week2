@@ -25,7 +25,9 @@ function Gameboard(){
     gridColumnGap: "2px",
     gridRowGap: "2px",
     backgroundColor: "light grey",
-    border: "dark grey"
+    border: "dark grey",
+    boxShadow: "5px 5px grey",
+    margin: "10px"
   }
 
   const gridItem = {

@@ -7,7 +7,7 @@ function ChatBox(){
   }
   return (
     <div>
-    <h1 style={compBox}>YOU MADE IT!  CHATBOX</h1>
+    <h1 style={compBox}>CHATBOX</h1>
     </div>
   );
 }

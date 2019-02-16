@@ -3,7 +3,8 @@ import { Switch, Route, Link } from 'react-router-dom';
 
 function MoveHistory(){
   const compBox = {
-    border: "solid green"
+    border: "solid green",
+    backgroundColor: "light yellow"
   }
   return (
     <h1 style={compBox}>MOVE HISTORY</h1>

@@ -5,14 +5,14 @@ import * as math from 'mathjs';
 function GamePieces(){
   const compBox = {
     border: "solid black",
-    backgroundColor: "light yellow"
+    backgroundColor: "light yellow",
   };
 
   const GridElevenStyle = {
     display: "grid",
     gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr",
     gridAutoRows: "min-content",
-    margin: "0"
+    margin: "1"
   };
 
 //consider making each piece a class
