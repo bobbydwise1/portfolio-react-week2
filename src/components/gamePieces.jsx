@@ -4,7 +4,8 @@ import * as math from 'mathjs';
 
 function GamePieces(){
   const compBox = {
-    border: "solid black"
+    border: "solid black",
+    backgroundColor: "light yellow"
   };
 
   const GridElevenStyle = {

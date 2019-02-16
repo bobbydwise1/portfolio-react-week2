@@ -8,7 +8,8 @@ import ChatBox from './chatbox';
 
 function GameRoute(){
   const compBox = {
-    border: "solid yellow"
+    border: "solid yellow",
+    backgroundColor: "light yellow"
   }
 
   const gameBoardGrid = {

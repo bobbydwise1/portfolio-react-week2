@@ -3,7 +3,8 @@ import { Switch, Route, Link } from 'react-router-dom';
 
 function Welcome(){
   const compBox = {
-    border: "solid black"
+    border: "solid black",
+    backgroundColor: "light yellow"
   }
 
   return (

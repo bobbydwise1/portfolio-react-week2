@@ -15,7 +15,22 @@ function createSquareGrid(n) {
 
 function Gameboard(){
   const compBox = {
-    border: "solid blue"
+    border: "solid blue",
+    backgroundColor: "light yellow"
+  }
+
+  const gridContainer = {
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr 1fr",
+    gridColumnGap: "2px",
+    gridRowGap: "2px",
+    backgroundColor: "light grey",
+    border: "dark grey"
+  }
+
+  const gridItem = {
+    backgroundColor: "light grey",
+    border: "light grey"
   }
 
   const gameSystem = math.matrix([
@@ -44,6 +59,18 @@ function Gameboard(){
 
         <div class="grid-container">
           {createSquareGrid(3).toString()}
+       </div>
+
+       <div style={gridContainer}>
+         <div style={gridItem}>1</div>
+         <div style={gridItem}>2</div>
+         <div style={gridItem}>3</div>
+         <div style={gridItem}>4</div>
+         <div style={gridItem}>5</div>
+         <div style={gridItem}>6</div>
+         <div style={gridItem}>7</div>
+         <div style={gridItem}>8</div>
+         <div style={gridItem}>9</div>
        </div>
 
     </div>
