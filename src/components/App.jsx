@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from './Header';
-import MoveHistory from './movehistory';
 import Welcome from './welcome';
-import GameRoute from './gameroute';
+import Exp from './Exp';
+import About from './About';
+import Hobbies from './Hobbies';
 import Error404 from './Error404';
 import { Switch, Route, Link } from 'react-router-dom';
 import MySampleImage from '../assets/images/testimage.png';
@@ -31,7 +32,9 @@ function App(){
       <Header/>
       <Switch>
         <Route exact path='/' component={Welcome}/>
-        <Route path='/gameroute' component={GameRoute}/>
+        <Route path='/Exp' component={Exp}/>
+        <Route path='/About' component={About}/>
+        <Route path='/Hobbies' component={Hobbies}/>
         <Route component={Error404}/>
       </Switch>
     </div>

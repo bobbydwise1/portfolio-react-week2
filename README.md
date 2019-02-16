@@ -1,18 +1,18 @@
-# _Chess Variant - Tamerlame 2000._
+# _Personal Portfolio in React._
 
-#### _A variant of chess originating from medieval Persia, but updated with modern rules.  Also called Tamerlame 2000 Chess._
+#### _A personal portfolio, done in React, week 1 of 2._
 
 #### By _**Robert Lee**_
 
 ## Description
 
-_A variant of chess, created in React._
+_A personal portfolio, done in React, week 1 of 2._
 
 ## Setup/Installation Requirements
 
 * _Clone the applications from github by going to the terminal window command line and typing:_
 
-$ git clone https://github.com/bobbydwise1/chess-medieval-persia.git
+$ git clone https://github.com/bobbydwise1/portfolio-react.git
 
 * _After all the files have been copied, navigate to the project working directory.  Type the following:_
 
@@ -28,12 +28,9 @@ $ npm run start
 
 * _To stop the application, return to the terminal window and enter the command CTRL+C.  If prompted for (Y/N), pick "Y".  Then close the user interface tab in your web browser._
 
-## Future Features
+## Layout
 
-* _This is only a static layout, in preparation for React state elements._
-* _See the following weblink for the rules this game is based on:_
-http://history.chess.free.fr/tamerlane2.htm#Moves
-* _The ancient version of this game is much more complex and "bloody".  The modern rules attempt to slow the game down and add more strategy._
+
 
 ## Known Bugs
 
