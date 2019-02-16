@@ -49,6 +49,7 @@ function Gameboard(){
     <div style={compBox}>
       <h1>GAMEBOBARD</h1>
       {createGrid}
+
        </div>
     </div>
   );
