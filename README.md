@@ -33,11 +33,11 @@ $ npm run start
 * _The component tree consists of the following:_
 
 * Top level: App
-* Children level:
-  * Welcome
-  * Exp
-  * About
-  * Projects
+* Children level: routes
+  * / (This is the Welcome Route)
+  * /Exp
+  * /About
+  * /Projects
 
 ## Known Bugs
 
