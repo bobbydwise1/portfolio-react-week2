@@ -22,7 +22,8 @@ function App(){
   }
   const mainImageStyle = {
     width: "10%",
-    height: "auto"
+    height: "auto",
+    margin: "auto"
   }
   const compBox = {
     border: "solid grey",
@@ -32,6 +33,10 @@ function App(){
   return (
     <div style={compBox, imgBackground}>
       <div style={topLineImageStyle}>
+        <img src={MySampleImage} style={mainImageStyle}/>
+        <img src={MySampleImage} style={mainImageStyle}/>
+        <img src={MySampleImage} style={mainImageStyle}/>
+        <img src={MySampleImage} style={mainImageStyle}/>
         <img src={MySampleImage} style={mainImageStyle}/>
       </div>
       <Header/>
