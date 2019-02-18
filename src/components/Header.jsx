@@ -3,7 +3,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 
 function Header() {
   const compBox = {
-    border: "solid orange",
+    border: "solid grey",
     backgroundColor: "light yellow"
   }
 

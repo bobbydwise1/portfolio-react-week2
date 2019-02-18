@@ -19,7 +19,7 @@ function App(){
     height: "auto"
   }
   const compBox = {
-    border: "solid red",
+    border: "solid grey",
     backgroundColor: "light yellow"
   }
 
