@@ -8,7 +8,7 @@ function Welcome(){
   }
 
   return (
-    <div>
+    <div style={compBox}>
 
       <p>I'm currently in the process of making a career change into software development.  My professional backround is Electrical Engineering.</p>
 

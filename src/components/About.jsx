@@ -9,7 +9,7 @@ function About(){
 
 
   return (
-    <div>
+    <div style={compBox}>
       <h1>About Me...</h1>
       <p>My entire career path up to now has been related to the engineering, repair and documentation of electronics.  I decided to make the switch to software development because, in part, to expand my knowledge in computer science and computer electronics.  Also, the growth opportunities in software development look promising.</p>
 
