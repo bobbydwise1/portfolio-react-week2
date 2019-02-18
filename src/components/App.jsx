@@ -3,6 +3,7 @@ import Header from './Header';
 import Welcome from './welcome';
 import Exp from './Exp';
 import About from './About';
+import Projects from './Projects';
 import Error404 from './Error404';
 import { Switch, Route, Link } from 'react-router-dom';
 import MySampleImage from '../assets/images/testimage.png';
@@ -38,6 +39,7 @@ function App(){
         <Route exact path='/' component={Welcome}/>
         <Route path='/Exp' component={Exp}/>
         <Route path='/About' component={About}/>
+        <Route path='/Projects' component={Projects}/>
         <Route component={Error404}/>
       </Switch>
     </div>
