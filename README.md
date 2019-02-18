@@ -30,7 +30,14 @@ $ npm run start
 
 ## Layout
 
+* _The component tree consists of the following:_
 
+* Top level: App
+* Children level:
+  * Welcome
+  * Exp
+  * About
+  * Projects
 
 ## Known Bugs
 
