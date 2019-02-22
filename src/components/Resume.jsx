@@ -9,6 +9,12 @@ function Resume(){
     padding: "20px"
   }
 
+  const imgBoxParent = {
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr",
+    backgroundColor: "black"
+  }
+
   const styleBold = {
     fontWeight: "bold",
     fontSize: "14px"
@@ -42,50 +48,56 @@ function Resume(){
   return (
     <div style={compBox}>
       <div style={leftText}>
-      <ul><p>Skills:</p>
-        <li>Ruby</li>
-        <li>Ruby on Rails</li>
-        <li>React</li>
-        <li>Redux</li>
-        <li>Angular</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>Babel</li>
-        <li>jQuery</li>
-        <li>Git</li>
-        <li>Github.com</li>
-        <li>Node.js Package Manager</li>
-        <li>Atom</li>
-        <li>Karma</li>
-        <li>RegEx</li>
-        <li>SQL</li>
-        <li>Firebase</li>
-        <li>AutoCAD</li>
-        <li>AutoCAD Electrical</li>
-        <li>SPICE</li>
-        <li>SIMATIC PLC</li>
-        <li>SIMATIC HMI</li>
-        <li>STEP7</li>
-        <li>WINCC</li>
-        <li>DIGSI</li>
-        <li>Senior Project Engineer</li>
-        <li>Industrial Control Engineer</li>
-        <li>Electrical Engineer</li>
-        <li>Debugging</li>
-        <li>Technical Writing</li>
-        <li>Technical Reading</li>
-        <li>Electrical Schematics Creation</li>
-        <li>2D Graphics rendering</li>
-        <li>AutoCAD Expert</li>
-        <li>Test Procedure Creation</li>
-        <li>Test Procedure Execution</li>
-        <li>Technical Instructor</li>
-        <li>Military Veteran</li>
-        <li>High Voltage Electrical Safety</li>
-        <li>Product Commissioning</li>
-        <li>Customer Technical Support</li>
-      </ul>
+      <h1 style={centerText}>Work Expierence</h1>
+      <h4>Skills:</h4>
+      <div style={imgBoxParent}>
+        <ul>
+          <li>Ruby</li>
+          <li>Ruby on Rails</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Angular</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Babel</li>
+          <li>jQuery</li>
+          <li>Git</li>
+          <li>Github.com</li>
+          <li>Node.js Package Manager</li>
+          <li>Atom</li>
+          <li>Karma</li>
+          <li>RegEx</li>
+          <li>SQL</li>
+          <li>Firebase</li>
+          <li>AutoCAD</li>
+          <li>AutoCAD Electrical</li>
+          <li>SPICE</li>
+        </ul>
+        <ul>
+          <li>SIMATIC PLC</li>
+          <li>SIMATIC HMI</li>
+          <li>STEP7</li>
+          <li>WINCC</li>
+          <li>DIGSI</li>
+          <li>Senior Project Engineer</li>
+          <li>Industrial Control Engineer</li>
+          <li>Electrical Engineer</li>
+          <li>Debugging</li>
+          <li>Technical Writing</li>
+          <li>Technical Reading</li>
+          <li>Electrical Schematics Creation</li>
+          <li>2D Graphics rendering</li>
+          <li>AutoCAD Expert</li>
+          <li>Test Procedure Creation</li>
+          <li>Test Procedure Execution</li>
+          <li>Technical Instructor</li>
+          <li>Military Veteran</li>
+          <li>High Voltage Electrical Safety</li>
+          <li>Product Commissioning</li>
+          <li>Customer Technical Support</li>
+        </ul>
+      </div>
 
       <h4>Education and Training:</h4>
 

@@ -35,7 +35,7 @@ class App extends React.Component {
     const imgBoxParent = {
       display: "grid",
       gridTemplateColumns: "1fr 1fr",
-      backgroundColor: "white"
+      backgroundColor: "black"
     }
 
     const imgBox = {

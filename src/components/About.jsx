@@ -17,7 +17,7 @@ function About(){
   const imgBoxParent = {
     display: "grid",
     gridTemplateColumns: "1fr 1fr",
-    backgroundColor: "white"
+    backgroundColor: "black"
   }
 
   const imgBox = {
@@ -72,7 +72,7 @@ function About(){
   return (
     <div style={compBox}>
       <div style={leftText}>
-        <h1>About Me...</h1>
+        <h1 style={centerText}>About Me...</h1>
         <p>My entire career path up to now has been related to the engineering, repair and documentation of electronics.  I decided to make the switch to software development because, in part, to expand my knowledge in computer science and computer electronics.  Also, the growth opportunities in software development look promising.</p>
       </div>
       <div style={imgBoxParent}>

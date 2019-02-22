@@ -43,7 +43,7 @@ function Projects(){
   return (
     <div style={compBox}>
       <div style={leftText}>
-        <h1>Projects</h1>
+        <h1 style={centerText}>Projects</h1>
         <p>Below are listed some software projects I have worked on:</p>
         <h2 style={styleBold}>Clone of Classic Tetris</h2>
         <ul>
@@ -57,6 +57,7 @@ function Projects(){
           <li style={styleItalic}>Portland, Oregon, USA</li>
           <li style={styleNormal}>A clone of Battleship.  Done using the Ruby on Rails Framework.</li>
         </ul>
+
       </div>
     </div>
   );
