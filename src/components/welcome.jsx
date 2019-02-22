@@ -71,21 +71,23 @@ function Welcome(){
   return (
     <div>
     <div style={compBox}>
-      <p style={leftText}>I'm currently in the process of making a career change into software development.  My professional backround is Electrical Engineering.</p>
-      <div style={imgBoxParent}>
-        <div style={imgBox}>
-          <img src={LightningFree} style={imgLightning}/>
+      <div style={leftText}>
+        <p>I'm currently in the process of making a career change into software development.  My professional backround is Electrical Engineering.</p>
+        <div style={imgBoxParent}>
+          <div style={imgBox}>
+            <img src={LightningFree} style={imgLightning}/>
+          </div>
+          <div style={imgBox}>
+            <img src={DigitalMultiMeter} style={imgMakeHalfTall}/>
+          </div>
         </div>
-        <div style={imgBox}>
-          <img src={DigitalMultiMeter} style={imgMakeHalfTall}/>
-        </div>
-      </div>
-      <div style={imgBoxParent}>
-        <div style={imgBox}>
-          <img src={MaxwellsEquations} style={imgMakeFit}/>
-        </div>
-        <div style={imgBox}>
-          <img src={OnesZeros} style={imgMakeFit}/>
+        <div style={imgBoxParent}>
+          <div style={imgBox}>
+            <img src={MaxwellsEquations} style={imgMakeFit}/>
+          </div>
+          <div style={imgBox}>
+            <img src={OnesZeros} style={imgMakeFit}/>
+          </div>
         </div>
       </div>
     </div>
