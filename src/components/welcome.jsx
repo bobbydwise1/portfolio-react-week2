@@ -56,10 +56,22 @@ function Welcome(){
     padding: "auto"
   }
 
+  const centerText = {
+    textAlign: "center",
+    paddingBottom: "10px",
+    textShadow: "2px 2px 8px #448844"
+  }
+
+  const leftText = {
+    textAlign: "left",
+    paddingBottom: "10px",
+    textShadow: "2px 2px 8px #448844"
+  }
+
   return (
     <div>
     <div style={compBox}>
-      <p>I'm currently in the process of making a career change into software development.  My professional backround is Electrical Engineering.</p>
+      <p style={leftText}>I'm currently in the process of making a career change into software development.  My professional backround is Electrical Engineering.</p>
       <div style={imgBoxParent}>
         <div style={imgBox}>
           <img src={LightningFree} style={imgLightning}/>

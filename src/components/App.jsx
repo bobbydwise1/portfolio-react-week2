@@ -77,6 +77,18 @@ function App(){
     padding: "auto"
   }
 
+  const centerText = {
+    textAlign: "center",
+    paddingBottom: "10px",
+    textShadow: "2px 2px 8px #448844"
+  }
+
+  const leftText = {
+    textAlign: "left",
+    paddingBottom: "10px",
+    textShadow: "2px 2px 8px #448844"
+  }
+
   return (
     <div style={compBox, imgBackground}>
       <div style={topLineImageStyle}>

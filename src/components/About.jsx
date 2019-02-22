@@ -52,10 +52,24 @@ function About(){
     padding: "auto"
   }
 
+  const centerText = {
+    textAlign: "center",
+    paddingBottom: "10px",
+    textShadow: "2px 2px 8px #448844"
+  }
+
+  const leftText = {
+    textAlign: "left",
+    paddingBottom: "10px",
+    textShadow: "2px 2px 8px #448844"
+  }
+
   return (
     <div style={compBox}>
-      <h1>About Me...</h1>
-      <p>My entire career path up to now has been related to the engineering, repair and documentation of electronics.  I decided to make the switch to software development because, in part, to expand my knowledge in computer science and computer electronics.  Also, the growth opportunities in software development look promising.</p>
+      <div style={leftText}>
+        <h1>About Me...</h1>
+        <p>My entire career path up to now has been related to the engineering, repair and documentation of electronics.  I decided to make the switch to software development because, in part, to expand my knowledge in computer science and computer electronics.  Also, the growth opportunities in software development look promising.</p>
+      </div>
       <div style={imgBoxParent}>
         <div style={imgBox}>
           <img src={MySampleImage} style={mainImageStyle}/>
