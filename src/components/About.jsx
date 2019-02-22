@@ -1,6 +1,10 @@
 import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import MySampleImage from '../assets/images/testimage.png';
+import MaxwellsEquations from '../assets/images/MaxwellsEquations.gif';
+import LightningFree from '../assets/images/LightningFree.jpg';
+import DigitalMultiMeter from '../assets/images/DigitalMultiMeter.jpg';
+import OnesZeros from '../assets/images/OnesZeros.png';
 
 function About(){
   const compBox = {
@@ -72,13 +76,18 @@ function About(){
       </div>
       <div style={imgBoxParent}>
         <div style={imgBox}>
-          <img src={MySampleImage} style={mainImageStyle}/>
+          <img src={LightningFree} style={imgLightning}/>
         </div>
         <div style={imgBox}>
-          <img src={MySampleImage} style={mainImageStyle}/>
+          <img src={DigitalMultiMeter} style={imgMakeHalfTall}/>
+        </div>
+      </div>
+      <div style={imgBoxParent}>
+        <div style={imgBox}>
+          <img src={MaxwellsEquations} style={imgMakeFit}/>
         </div>
         <div style={imgBox}>
-          <img src={MySampleImage} style={mainImageStyle}/>
+          <img src={OnesZeros} style={imgMakeFit}/>
         </div>
       </div>
     </div>
