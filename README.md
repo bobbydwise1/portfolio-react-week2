@@ -32,12 +32,7 @@ $ npm run start
 
 * _The component tree consists of the following:_
 
-* Top level: App
-* Children level: routes
-  * / (This is the Welcome Route)
-  * /Exp
-  * /About
-  * /Projects
+![Component Image](./src/assets/images/CompDiag.png)
 
 ## Known Bugs
 
