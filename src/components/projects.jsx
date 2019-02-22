@@ -5,7 +5,8 @@ function Projects(){
   const compBox = {
     border: "solid grey",
     color: "green",
-    backgroundColor: "black"
+    backgroundColor: "black",
+    padding: "20px"
   }
 
   const styleBold = {
@@ -35,7 +36,7 @@ function Projects(){
   const leftText = {
     textAlign: "left",
     paddingBottom: "10px",
-    textShadow: "2px 2px 8px #448844"
+    textShadow: "2px 2px 8px #448844",
   }
 
 

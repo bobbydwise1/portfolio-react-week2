@@ -5,7 +5,8 @@ function Header() {
   const compBox = {
     border: "solid grey",
     color: "green",
-    backgroundColor: "black"
+    backgroundColor: "black",
+    padding: "20px"
   }
 
   const imgBoxParent = {

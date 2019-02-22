@@ -5,7 +5,8 @@ function Resume(){
   const compBox = {
     border: "solid grey",
     color: "green",
-    backgroundColor: "black"
+    backgroundColor: "black",
+    padding: "20px"
   }
 
   const styleBold = {
@@ -38,119 +39,137 @@ function Resume(){
     textShadow: "2px 2px 8px #448844"
   }
 
-  return ( <div>
-    <ul><p>Skills:</p>
-    <li>Ruby</li>
-    <li>Ruby on Rails</li>
-    <li>React</li>
-    <li>Redux</li>
-    <li>Angular</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    <li>Babel</li>
-    <li>jQuery</li>
-    <li>Git</li>
-    <li>Github.com</li>
-    <li>Node.js Package Manager</li>
-    <li>Atom</li>
-    <li>Karma</li>
-    <li>RegEx</li>
-    <li>SQL</li>
-    <li>Firebase</li>
-    <li>AutoCAD</li>
-    <li>AutoCAD Electrical</li>
-    <li>SPICE</li>
-    <li>SIMATIC PLC</li>
-    <li>SIMATIC HMI</li>
-    <li>STEP7</li>
-    <li>WINCC</li>
-    <li>DIGSI</li>
-    <li>Senior Project Engineer</li>
-    <li>Industrial Control Engineer</li>
-    <li>Electrical Engineer</li>
-    <li>Debugging</li>
-    <li>Technical Writing</li>
-    <li>Technical Reading</li>
-    <li>Electrical Schematics Creation</li>
-    <li>2D Graphics rendering</li>
-    <li>AutoCAD Expert</li>
-    <li>Test Procedure Creation</li>
-    <li>Test Procedure Execution</li>
-    <li>Technical Instructor</li>
-    <li>Military Veteran</li>
-    <li>High Voltage Electrical Safety</li>
-    <li>Product Commissioning</li>
-    <li>Customer Technical Support</li>
+  return (
+    <div style={compBox}>
+      <div style={leftText}>
+      <ul><p>Skills:</p>
+        <li>Ruby</li>
+        <li>Ruby on Rails</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>Angular</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Babel</li>
+        <li>jQuery</li>
+        <li>Git</li>
+        <li>Github.com</li>
+        <li>Node.js Package Manager</li>
+        <li>Atom</li>
+        <li>Karma</li>
+        <li>RegEx</li>
+        <li>SQL</li>
+        <li>Firebase</li>
+        <li>AutoCAD</li>
+        <li>AutoCAD Electrical</li>
+        <li>SPICE</li>
+        <li>SIMATIC PLC</li>
+        <li>SIMATIC HMI</li>
+        <li>STEP7</li>
+        <li>WINCC</li>
+        <li>DIGSI</li>
+        <li>Senior Project Engineer</li>
+        <li>Industrial Control Engineer</li>
+        <li>Electrical Engineer</li>
+        <li>Debugging</li>
+        <li>Technical Writing</li>
+        <li>Technical Reading</li>
+        <li>Electrical Schematics Creation</li>
+        <li>2D Graphics rendering</li>
+        <li>AutoCAD Expert</li>
+        <li>Test Procedure Creation</li>
+        <li>Test Procedure Execution</li>
+        <li>Technical Instructor</li>
+        <li>Military Veteran</li>
+        <li>High Voltage Electrical Safety</li>
+        <li>Product Commissioning</li>
+        <li>Customer Technical Support</li>
+      </ul>
 
-    <h4>Education and Training:</h4>
+      <h4>Education and Training:</h4>
 
-    Epicodus, Portland, Oregon, Oct 2018-April 2019:
-    Learned computer programming, web development, software testing, software version control using Git, object oriented programming, functional programming, API’s, web app deployment, bug fixing, and programming best practices.
+      <p>
+      <h4>Epicodus, Portland, Oregon, Oct 2018-April 2019:</h4>
+      <p>Learned computer programming, web development, software testing, software version control using Git, object oriented programming, functional programming, API’s, web app deployment, bug fixing, and programming best practices.</p>
 
-    B.S. Electrical Engineering, Portland State University, Portland, Oregon, 2004-2010:
-    Software packages and languages studied: MATLAB, C++, C, Verilog, SPICE, MathCAD, Mathematica, Allen-Bradley PLC.  Courses included Linear Algebra and Thermodynamics.
+      <h4>B.S. Electrical Engineering, Portland State University, Portland, Oregon, 2004-2010:</h4>
+      <p>Software packages and languages studied: MATLAB, C++, C, Verilog, SPICE, MathCAD, Mathematica, Allen-Bradley PLC.  Courses included Linear Algebra and Thermodynamics.</p>
 
-    Primary Leadership Development Course, Non-Commissioned Officer’s Academy, US Army, Fort Drum, NY, Aug 2003:
-    First Line Supervisor Leadership school.
+      <h4>Primary Leadership Development Course, Non-Commissioned Officer’s Academy, US Army, Fort Drum, NY, Aug 2003:</h4>
+      <p>First Line Supervisor Leadership school.</p>
 
-    Electrical Technician Training, US Army Ordinance School, Huntsville, AL, Apr 2000 - Oct 2000:
-    	Electrical repair and maintenance training.
+      <h4>Electrical Technician Training, US Army Ordinance School, Huntsville, AL, Apr 2000 - Oct 2000:</h4>
+      <p>Electrical repair and maintenance training.</p>
 
-    Career History and Accomplishments:
+      <h4>Career History and Accomplishments:</h4>
 
-    Senior Project Engineer,  SIEMENS Industry, Inc., Mobility Division, Turnkey Projects and Electrification Office, Tualatin, OR, 2011- 2018:
-    DC Electrical Substation design.
-    Meet external customers nationally.
-    Review technical specifications.
-    Hardware and software integration.
-    PLC programming.
-    UI/UX design for Industrial Control.
-    Engineering Process Improvement
-    AutoCAD, AutoCAD Electrical
-    Industrial Controls Design
-    Industrial Controls Testing
-    Project Product Commissioning
-    Senior Project Electrical Engineer
+      <h4>Senior Project Engineer,  SIEMENS Industry, Inc., Mobility Division, Turnkey Projects and Electrification Office, Tualatin, OR, 2011- 2018:</h4>
 
-    	Project Engineer in Global Fortune 500 company, for Power Substation products for the Light Rail industry.  Promoted to Senior Project Engineer.  Worked in projects all over continental US, and Hawaii.  Review customer specification documents and meet customer requirements. Work with technology team to deliver project’s products.  Use AutoCAD Electrical to create smart electrical industrial control schematics. Write product testing procedures.  Conduct product testing.  Continually conduct process improvement.  Commission engineering products.  Answer engineering, technical, and product questions from the customer.  Some projects included Washington DC Streetcar, San Jose Light Rail, and Cincinnati Streetcar.
+      <ul><p>Skills:</p>
+        <li>DC Electrical Substation design.</li>
+        <li>Meet external customers nationally.</li>
+        <li>Review technical specifications.</li>
+        <li>Hardware and software integration.</li>
+        <li>PLC programming.</li>
+        <li>UI/UX design for Industrial Control.</li>
+        <li>Engineering Process Improvement</li>
+        <li>AutoCAD, AutoCAD Electrical</li>
+        <li>Industrial Controls Design</li>
+        <li>Industrial Controls Testing</li>
+        <li>Project Product Commissioning</li>
+        <li>Senior Project Electrical Engineer</li>
+      </ul>
 
-    Team Leader, Oregon National Guard, Portland, OR, 2004- 2005
-    Shop Operations
-    Shop Maintenance
-    Supervisor
-    Training Instructor
-    Secret Security Clearance
-    Honorably discharged
+    	<p></p>Project Engineer in Global Fortune 500 company, for Power Substation products for the Light Rail industry.  Promoted to Senior Project Engineer.  Worked in projects all over continental US, and Hawaii.  Review customer specification documents and meet customer requirements. Work with technology team to deliver project’s products.  Use AutoCAD Electrical to create smart electrical industrial control schematics. Write product testing procedures.  Conduct product testing.  Continually conduct process improvement.  Commission engineering products.  Answer engineering, technical, and product questions from the customer.  Some projects included Washington DC Streetcar, San Jose Light Rail, and Cincinnati Streetcar.</p>
 
-    Shop Manager, US Army, 10th Mountain Division, Fort Drum, NY, 2003 - 2004:
-    Electronics Repair
-    Shop Operations
-    Shop Maintenance
-    Supervisor
-    Rapid Promotion
-    Training Instructor
-    Secret Security Clearance
-    Honorably discharged
+      <h4>Team Leader, Oregon National Guard, Portland, OR, 2004- 2005:</h4>
+      <ul>
+        <li>Shop Operations</li>
+        <li>Shop Maintenance</li>
+        <li>Supervisor</li>
+        <li>Training Instructor</li>
+        <li>Secret Security Clearance</li>
+        <li>Honorably discharged</li>
+      </ul>
 
-    Electronics Technician, US Army, 1st Infantry Division, City of Kitzingen, State of Bavaria, Germany, 2000-2003:
-    Electronics Repair
-    Shop Maintenance
-    Rapid Promotion
-    Secret Security Clearance
+      <h4>Shop Manager, US Army, 10th Mountain Division, Fort Drum, NY, 2003 - 2004:</h4>
+      <ul>
+        <li>Electronics Repair</li>
+        <li>Shop Operations</li>
+        <li>Shop Maintenance</li>
+        <li>Supervisor</li>
+        <li>Rapid Promotion</li>
+        <li>Training Instructor</li>
+        <li>Secret Security Clearance</li>
+        <li>Honorably discharged</li>
+      </ul>
 
-    Humanitarian Volunteer, Amigos de las Americas, Portland, OR, and Central America, 1997 - 1998:
-    Humanitarian Volunteer
-    Housing Construction
-    Public Health Instructor
+      <h4>Electronics Technician, US Army, 1st Infantry Division, City of Kitzingen, State of Bavaria, Germany, 2000-2003:</h4>
 
-    Other Accomplishments:
-    Engineering in Training (E.I.T.) rating, April 2011.
-    Can solve 3x3x3 Rubik’s cube and 4x4x4 Rubik’s cube.
+      <ul>
+        <li>Electronics Repair</li>
+        <li>Shop Maintenance</li>
+        <li>Rapid Promotion</li>
+        <li>Secret Security Clearance</li>
+      </ul>
 
+      <h4>Humanitarian Volunteer, Amigos de las Americas, Portland, OR, and Central America, 1997 - 1998:</h4>
 
+      <ul>
+        <li>Humanitarian Volunteer</li>
+        <li>Housing Construction</li>
+        <li>Public Health Instructor</li>
+      </ul>
 
+      <h4>Other Accomplishments:</h4>
 
-</div>  )
-
+      <ul>
+        <li>Engineering in Training (E.I.T.) rating, April 2011.</li>
+        <li>Can solve 3x3x3 Rubik’s cube and 4x4x4 Rubik’s cube.</li>
+      </ul>
+    </div>
+    </div>
+  );
 }
+export default Resume;
