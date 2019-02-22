@@ -4,7 +4,7 @@ import MySampleImage from '../assets/images/testimage.png';
 import MaxwellsEquations from '../assets/images/MaxwellsEquations.png';
 import LightningFree from '../assets/images/LightningFree.jpg';
 import DigitalMultiMeter from '../assets/images/DigitalMultiMeter.png';
-import OnesZeros from '../assets/images/OnesZeros.png';
+import ZerosOnes from '../assets/images/ZerosOnes.png';
 
 function About(){
   const compBox = {
@@ -87,7 +87,7 @@ function About(){
           <img src={MaxwellsEquations} style={imgMakeFit}/>
         </div>
         <div style={imgBox}>
-          <img src={OnesZeros} style={imgMakeFit}/>
+          <img src={ZerosOnes} style={imgMakeFit}/>
         </div>
       </div>
     </div>
