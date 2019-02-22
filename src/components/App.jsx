@@ -9,7 +9,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 import MySampleImage from '../assets/images/testimage.png';
 import MyAnotherTestImage from '../assets/images/testwide.png';
 
-function App(){
+Class App extends React.Component()
   const imgBackground = {
     backgroundImage: '../assets/images/testwide.png',
     backgroundSize: 'cover',
