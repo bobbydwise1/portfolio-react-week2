@@ -1,9 +1,9 @@
 import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import MySampleImage from '../assets/images/testimage.png';
-import MaxwellsEquations from '../assets/images/MaxwellsEquations.gif';
+import MaxwellsEquations from '../assets/images/MaxwellsEquations.png';
 import LightningFree from '../assets/images/LightningFree.jpg';
-import DigitalMultiMeter from '../assets/images/DigitalMultiMeter.jpg';
+import DigitalMultiMeter from '../assets/images/DigitalMultiMeter.png';
 import OnesZeros from '../assets/images/OnesZeros.png';
 
 function Welcome(){
@@ -22,7 +22,7 @@ function Welcome(){
   const imgBox = {
     display: "grid",
     border: "solid grey",
-    backgroundColor: "white"
+    backgroundColor: "black"
   }
 
   const mainImageStyle = {

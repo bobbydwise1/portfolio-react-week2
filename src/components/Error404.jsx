@@ -17,7 +17,7 @@ function Error404(){
   const imgBox = {
     display: "grid",
     border: "solid grey",
-    backgroundColor: "white"
+    backgroundColor: "black"
   }
 
   const mainImageStyle = {

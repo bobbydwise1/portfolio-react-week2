@@ -40,7 +40,7 @@ class App extends React.Component {
     const imgBox = {
       display: "grid",
       border: "solid grey",
-      backgroundColor: "white"
+      backgroundColor: "black"
     }
 
     const mainImageStyle = {
