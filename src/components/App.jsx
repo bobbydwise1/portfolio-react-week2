@@ -19,11 +19,6 @@ class App extends React.Component {
   }
 
   render() {
-    const imgBackground = {
-      backgroundImage: '../assets/images/testwide.png',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center center'
-    }
 
     const topLineImageStyle = {
       margin: "0 auto 0 auto",
@@ -98,7 +93,7 @@ class App extends React.Component {
       textShadow: "2px 2px 8px #448844"
     }
     return (
-      <div style={compBox, imgBackground}>
+      <div style={compBox}>
         <div style={topLineImageStyle}>
           <img src={MySampleImage} style={imgMakeSmall}/>
           <img src={MySampleImage} style={imgMakeSmall}/>
