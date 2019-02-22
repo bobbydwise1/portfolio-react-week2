@@ -13,31 +13,77 @@ function App(){
   const imgBackground = {
     backgroundImage: '../assets/images/testwide.png',
     backgroundSize: 'cover',
-    backgroundPosition: 'center center',
+    backgroundPosition: 'center center'
   }
 
   const topLineImageStyle = {
     margin: "0 auto 0 auto",
-    display: "inline-block",
+    display: "inline-block"
   }
+
+  const compBox = {
+    border: "solid grey",
+    color: "green",
+    backgroundColor: "black"
+  }
+
+  const imgBoxParent = {
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr",
+    backgroundColor: "white"
+  }
+
+  const imgBox = {
+    display: "grid",
+    border: "solid grey",
+    backgroundColor: "white"
+  }
+
   const mainImageStyle = {
-    width: "10%",
+    maxWidth: "100%",
+    maxHeight: "100%",
+    width: "100%",
     height: "auto",
     margin: "auto"
   }
-  const compBox = {
-    border: "solid grey",
-    backgroundColor: "light yellow"
+
+  const imgMakeFit = {
+    maxWidth: "100%",
+    maxHeight: "100%",
+    height: "100%",
+    margin: "auto",
+    padding: "auto"
+  }
+
+  const imgLightning = {
+    maxWidth: "100%",
+    maxHeight: "100%",
+    height: "100%",
+    margin: "auto",
+    padding: "auto"
+  }
+
+  const imgMakeHalfTall = {
+    maxWidth: "100%",
+    maxHeight: "50%",
+    margin: "auto",
+    padding: "auto"
+  }
+
+  const imgMakeSmall = {
+    maxWidth: "25%",
+    maxHeight: "25%",
+    margin: "auto",
+    padding: "auto"
   }
 
   return (
     <div style={compBox, imgBackground}>
       <div style={topLineImageStyle}>
-        <img src={MySampleImage} style={mainImageStyle}/>
-        <img src={MySampleImage} style={mainImageStyle}/>
-        <img src={MySampleImage} style={mainImageStyle}/>
-        <img src={MySampleImage} style={mainImageStyle}/>
-        <img src={MySampleImage} style={mainImageStyle}/>
+        <img src={MySampleImage} style={imgMakeSmall}/>
+        <img src={MySampleImage} style={imgMakeSmall}/>
+        <img src={MySampleImage} style={imgMakeSmall}/>
+        <img src={MySampleImage} style={imgMakeSmall}/>
       </div>
       <Header/>
       <Switch>

@@ -3,7 +3,52 @@ import { Switch, Route, Link } from 'react-router-dom';
 
 function Error404(){
   const compBox = {
-    border: "solid grey"
+    border: "solid grey",
+    color: "green",
+    backgroundColor: "black"
+  }
+
+  const imgBoxParent = {
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr",
+    backgroundColor: "white"
+  }
+
+  const imgBox = {
+    display: "grid",
+    border: "solid grey",
+    backgroundColor: "white"
+  }
+
+  const mainImageStyle = {
+    maxWidth: "100%",
+    maxHeight: "100%",
+    width: "100%",
+    height: "auto",
+    margin: "auto"
+  }
+
+  const imgMakeFit = {
+    maxWidth: "100%",
+    maxHeight: "100%",
+    height: "100%",
+    margin: "auto",
+    padding: "auto"
+  }
+
+  const imgLightning = {
+    maxWidth: "100%",
+    maxHeight: "100%",
+    height: "100%",
+    margin: "auto",
+    padding: "auto"
+  }
+
+  const imgMakeHalfTall = {
+    maxWidth: "100%",
+    maxHeight: "50%",
+    margin: "auto",
+    padding: "auto"
   }
   return (
     <div style={compBox}>
