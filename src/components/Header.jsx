@@ -68,7 +68,7 @@ function Header() {
     <div style={compBox}>
       <div style={centerText}>
         <h1>Robert Lee Portfolio</h1>
-        <p>♚<Link to="/">Welcome</Link>♛<Link to="/Exp">Expierence</Link>♝<Link to="/About">About Me</Link>♞<Link to="/Projects">Projects</Link>♜</p>
+        <p>♚<Link to="/">Welcome</Link>♛<Link to="/Exp">Expierence</Link>♝<Link to="/Projects">Software Projects</Link>♞<Link to="/About">About Me</Link>♜</p>
       </div>
     </div>
   );

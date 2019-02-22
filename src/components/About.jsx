@@ -1,9 +1,8 @@
 import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
-import MySampleImage from '../assets/images/testimage.png';
-import MaxwellsEquations from '../assets/images/MaxwellsEquations.png';
-import LightningFree from '../assets/images/LightningFree.jpg';
-import DigitalMultiMeter from '../assets/images/DigitalMultiMeter.png';
+import EulersIdentidy from '../assets/images/EulersIdentidy.png';
+import Oscope from '../assets/images/Oscope.jpg';
+import Oscope2 from '../assets/images/Oscope2.jpg';
 import ZerosOnes from '../assets/images/ZerosOnes.png';
 
 function About(){
@@ -57,6 +56,13 @@ function About(){
     padding: "auto"
   }
 
+  const imgMakeCustomTall = {
+    maxWidth: "100%",
+    maxHeight: "75%",
+    margin: "auto",
+    padding: "auto"
+  }
+
   const centerText = {
     textAlign: "center",
     paddingBottom: "10px",
@@ -77,15 +83,15 @@ function About(){
       </div>
       <div style={imgBoxParent}>
         <div style={imgBox}>
-          <img src={LightningFree} style={imgLightning}/>
+          <img src={Oscope} style={imgMakeFit}/>
         </div>
         <div style={imgBox}>
-          <img src={DigitalMultiMeter} style={imgMakeHalfTall}/>
+          <img src={Oscope2} style={imgMakeCustomTall}/>
         </div>
       </div>
       <div style={imgBoxParent}>
         <div style={imgBox}>
-          <img src={MaxwellsEquations} style={imgMakeFit}/>
+          <img src={EulersIdentidy} style={mainImageStyle}/>
         </div>
         <div style={imgBox}>
           <img src={ZerosOnes} style={imgMakeFit}/>
