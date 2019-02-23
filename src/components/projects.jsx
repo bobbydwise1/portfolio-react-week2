@@ -11,7 +11,6 @@ function Projects(){
 
   const styleBold = {
     fontWeight: "bold",
-    fontSize: "14px"
   }
 
   const styleItalicBold = {
@@ -29,34 +28,59 @@ function Projects(){
 
   const centerText = {
     textAlign: "center",
-    paddingBottom: "10px",
     textShadow: "2px 2px 8px #448844"
   }
 
   const leftText = {
     textAlign: "left",
-    paddingBottom: "10px",
     textShadow: "2px 2px 8px #448844",
   }
 
+  const imgBox = {
+    display: "grid",
+    border: "solid grey",
+    backgroundColor: "black"
+  }
 
   return (
     <div style={compBox}>
       <div style={leftText}>
         <h1 style={centerText}>Projects</h1>
+        <p>My Github profile can be reached at <a href='https://github.com/bobbydwise1'>at this link</a></p>
+
         <p>Below are listed some software projects I have worked on:</p>
-        <h2 style={styleBold}>Clone of Classic Tetris</h2>
-        <ul>
-          <li style={styleItalicBold}>Epicodus</li>
-          <li style={styleItalic}>Portland, Oregon, USA</li>
-          <li style={styleNormal}>A clone attempt of the classic Nintendo Entertainment System of Tetris.  Done using Angular Framework, and the p5 javascript library.</li>
-        </ul>
-        <h2 style={styleBold}>Battleship</h2>
-        <ul>
-          <li style={styleItalicBold}>Epicodus</li>
-          <li style={styleItalic}>Portland, Oregon, USA</li>
-          <li style={styleNormal}>A clone of Battleship.  Done using the Ruby on Rails Framework.</li>
-        </ul>
+
+        <div style={compBox}>
+          <h2 style={styleBold}>Clone of Classic Tetris, using Angular</h2>
+          <ul>
+            <li><a href='https://github.com/bobbydwise1/tetris-angular.git'>https://github.com/bobbydwise1/tetris-angular.git</a></li>
+            <li style={styleNormal}>A clone attempt of the classic Nintendo Entertainment System of Tetris.  Done using Angular Framework, and the p5 javascript library.  A refactor is in the works.</li>
+          </ul>
+        </div>
+
+        <div style={compBox}>
+          <h2 style={styleBold}>Battleship, using Ruby on Rails</h2>
+          <ul>
+            <li style={styleNormal}><a href='https://github.com/bobbydwise1/battle-ships.git'>https://github.com/bobbydwise1/battle-ships.git</a></li>
+            <li style={styleNormal}>A clone of Battleship.  Done using the Ruby on Rails Framework.</li>
+          </ul>
+        </div>
+
+        <div style={compBox}>
+          <h2 style={styleBold}>Tamagotchi, in Javascript</h2>
+          <ul>
+            <li style={styleNormal}><a href='https://github.com/bobbydwise1/tamagotchi-js.git'>https://github.com/bobbydwise1/tamagotchi-js.git</a></li>
+            <li style={styleNormal}>A software version of Tamagotchi.  Done using Javascript.</li>
+          </ul>
+        </div>
+
+        <div style={compBox}>
+          <h2 style={styleBold}>Pig Dice, in Javascript</h2>
+          <ul>
+            <li style={styleNormal}><a href='https://github.com/bobbydwise1/pig-dice.git'>https://github.com/bobbydwise1/tamagotchi-js.git</a></li>
+            <li style={styleNormal}>A game of Pig Dice created using Javascript.</li>
+          </ul>
+        </div>
 
       </div>
     </div>

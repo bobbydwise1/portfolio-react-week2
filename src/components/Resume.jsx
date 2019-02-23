@@ -35,21 +35,28 @@ function Resume(){
 
   const centerText = {
     textAlign: "center",
-    paddingBottom: "10px",
     textShadow: "2px 2px 8px #448844"
   }
 
   const leftText = {
     textAlign: "left",
-    paddingBottom: "10px",
     textShadow: "2px 2px 8px #448844"
+  }
+
+  const underlineText = {
+    textAlign: "center",
+    textDecoration: "underline"
   }
 
   return (
     <div style={compBox}>
       <div style={leftText}>
-      <h1 style={centerText}>Work Expierence</h1>
-      <h4>Skills:</h4>
+      <div style={centerText}>
+        <h1>Work Expierence</h1>
+        <p><a href='https://www.linkedin.com/in/robertlee123456789/'>Link to Linked In</a></p>
+        <p><a href='https://github.com/bobbydwise1'>Link to Github</a></p>
+      </div>
+      <h3 style={underlineText}>Skills:</h3>
       <div style={imgBoxParent}>
         <ul>
           <li>Ruby</li>
@@ -99,26 +106,40 @@ function Resume(){
         </ul>
       </div>
 
-      <h4>Education and Training:</h4>
-
-      <p>
-      <h4>Epicodus, Portland, Oregon, Oct 2018-April 2019:</h4>
+      <h3 style={underlineText}>Education and Training:</h3>
+      <div style={centerText}>
+      <h4>Epicodus</h4>
+      <p>Portland, Oregon, Oct 2018-April 2019</p>
+      </div>
       <p>Learned computer programming, web development, software testing, software version control using Git, object oriented programming, functional programming, API’s, web app deployment, bug fixing, and programming best practices.</p>
 
-      <h4>B.S. Electrical Engineering, Portland State University, Portland, Oregon, 2004-2010:</h4>
+      <div style={centerText}>
+      <h4>B.S. Electrical Engineering</h4>
+      <p>Portland State University, Portland, Oregon, 2004-2010</p>
+      </div>
       <p>Software packages and languages studied: MATLAB, C++, C, Verilog, SPICE, MathCAD, Mathematica, Allen-Bradley PLC.  Courses included Linear Algebra and Thermodynamics.</p>
 
-      <h4>Primary Leadership Development Course, Non-Commissioned Officer’s Academy, US Army, Fort Drum, NY, Aug 2003:</h4>
+      <div style={centerText}>
+      <h4>Primary Leadership Development Course</h4>
+      <p>US Army Non-Commissioned Officer’s Academy, Fort Drum, NY, Aug 2003</p>
+      </div>
       <p>First Line Supervisor Leadership school.</p>
 
-      <h4>Electrical Technician Training, US Army Ordinance School, Huntsville, AL, Apr 2000 - Oct 2000:</h4>
+      <div style={centerText}>
+      <h4>Electrical Technician Training</h4>
+      <p>US Army Ordinance School, Huntsville, AL, Apr 2000 - Oct 2000</p>
+      </div>
       <p>Electrical repair and maintenance training.</p>
 
-      <h4>Career History and Accomplishments:</h4>
+      <h3 style={underlineText}>Career History and Accomplishments:</h3>
 
-      <h4>Senior Project Engineer,  SIEMENS Industry, Inc., Mobility Division, Turnkey Projects and Electrification Office, Tualatin, OR, 2011- 2018:</h4>
+      <h4>Senior Project Engineer</h4>
+      <p>SIEMENS Industry, Inc., Mobility Division, Turnkey Projects and Electrification Office</p>
+      <p>Tualatin, OR</p>
+      <p>2011- 2018</p>
 
-      <ul><p>Skills:</p>
+      <p>Skills:</p>
+      <ul>
         <li>DC Electrical Substation design.</li>
         <li>Meet external customers nationally.</li>
         <li>Review technical specifications.</li>
@@ -133,7 +154,7 @@ function Resume(){
         <li>Senior Project Electrical Engineer</li>
       </ul>
 
-    	<p></p>Project Engineer in Global Fortune 500 company, for Power Substation products for the Light Rail industry.  Promoted to Senior Project Engineer.  Worked in projects all over continental US, and Hawaii.  Review customer specification documents and meet customer requirements. Work with technology team to deliver project’s products.  Use AutoCAD Electrical to create smart electrical industrial control schematics. Write product testing procedures.  Conduct product testing.  Continually conduct process improvement.  Commission engineering products.  Answer engineering, technical, and product questions from the customer.  Some projects included Washington DC Streetcar, San Jose Light Rail, and Cincinnati Streetcar.</p>
+    	<p>Project Engineer in Global Fortune 500 company, for Power Substation products for the Light Rail industry.  Promoted to Senior Project Engineer.  Worked in projects all over continental US, and Hawaii.  Review customer specification documents and meet customer requirements. Work with technology team to deliver project’s products.  Use AutoCAD Electrical to create smart electrical industrial control schematics. Write product testing procedures.  Conduct product testing.  Continually conduct process improvement.  Commission engineering products.  Answer engineering, technical, and product questions from the customer.  Some projects included Washington DC Streetcar, San Jose Light Rail, and Cincinnati Streetcar.</p>
 
       <h4>Team Leader, Oregon National Guard, Portland, OR, 2004- 2005:</h4>
       <ul>
@@ -174,7 +195,7 @@ function Resume(){
         <li>Public Health Instructor</li>
       </ul>
 
-      <h4>Other Accomplishments:</h4>
+      <h3 style={underlineText}>Other Accomplishments:</h3>
 
       <ul>
         <li>Engineering in Training (E.I.T.) rating, April 2011.</li>
