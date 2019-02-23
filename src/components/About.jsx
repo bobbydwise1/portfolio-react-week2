@@ -81,25 +81,22 @@ function About(){
       </div>
       <div style={imgBoxParent}>
         <div style={imgBox}>
-          <img src={Oscope} style={imgMakeFit}/>
+          <img src={Oscope} style={imgMakeFit} alt='Old School Oscope'/>
         </div>
         <div style={imgBox}>
-          <img src={Oscope2} style={imgMakeCustomTall}/>
+          <img src={Oscope2} style={imgMakeCustomTall} alt='New School Oscope'/>
         </div>
       </div>
       <div style={imgBoxParent}>
         <div style={imgBox}>
-          <img src={EulersIdentidy} style={mainImageStyle}/>
+          <img src={EulersIdentidy} style={mainImageStyle} alt='The Most Beautiful Equation in Mathematics'/>
         </div>
         <div style={imgBox}>
-          <img src={ZerosOnes} style={imgMakeFit}/>
+          <img src={ZerosOnes} style={imgMakeFit} alt='The Digital Age 2'/>
         </div>
       </div>
     </div>
   );
 }
-
-
-
 
 export default About;

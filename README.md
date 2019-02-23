@@ -1,18 +1,18 @@
 # _Personal Portfolio in React._
 
-#### _A personal portfolio, done in React, week 1 of 2._
+#### _A personal portfolio, done in React._
 
 #### By _**Robert Lee**_
 
 ## Description
 
-_A personal portfolio, done in React, week 1 of 2._
+_A personal portfolio, done in React._
 
 ## Setup/Installation Requirements
 
 * _Clone the applications from github by going to the terminal window command line and typing:_
 
-$ git clone https://github.com/bobbydwise1/portfolio-react.git
+$ git clone https://github.com/bobbydwise1/portfolio-react-week2.git
 
 * _After all the files have been copied, navigate to the project working directory.  Type the following:_
 
@@ -36,7 +36,7 @@ $ npm run start
 
 ## Known Bugs
 
-* _This is a static layout for preparation of React state elements._
+* _Not really a bug, but React state has been inserted into the App Component for use in a future refactor._
 
 ## Support and contact details
 
@@ -48,6 +48,6 @@ $ npm run start
 
 ### License
 
-*This application is Licensed under the MIT software License agreement. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+*This application is Licensed under the MIT software License agreement. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
 
 Copyright (c) 2019 **_Robert Lee, Epicodus_**

@@ -74,18 +74,18 @@ function Welcome(){
         <p>I'm currently in the process of making a career change into software development.  My professional backround is Electrical Engineering.</p>
         <div style={imgBoxParent}>
           <div style={imgBox}>
-            <img src={LightningFree} style={imgLightning}/>
+            <img src={LightningFree} style={imgLightning} alt='Behold Thor'/>
           </div>
           <div style={imgBox}>
-            <img src={DigitalMultiMeter} style={imgMakeHalfTall}/>
+            <img src={DigitalMultiMeter} style={imgMakeHalfTall} alt='The Hammer of EE'/>
           </div>
         </div>
         <div style={imgBoxParent}>
           <div style={imgBox}>
-            <img src={MaxwellsEquations} style={imgMakeFit}/>
+            <img src={MaxwellsEquations} style={imgMakeFit} alt='None of These are Named After Maxwell'/>
           </div>
           <div style={imgBox}>
-            <img src={OnesZeros} style={imgMakeFit}/>
+            <img src={OnesZeros} style={imgMakeFit} alt='The Digital Age 1'/>
           </div>
         </div>
       </div>
