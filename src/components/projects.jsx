@@ -3,7 +3,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 
 function Projects(){
   const compBox = {
-    border: "solid grey",
+    border: "solid darkgreen",
     color: "green",
     backgroundColor: "black",
     padding: "20px"
@@ -38,14 +38,14 @@ function Projects(){
 
   const imgBox = {
     display: "grid",
-    border: "solid grey",
+    border: "solid darkgreen",
     backgroundColor: "black"
   }
 
   return (
     <div style={compBox}>
       <div style={leftText}>
-        <h1 style={centerText}>Projects</h1>
+        <h1 style={centerText}>Software Projects</h1>
         <p>My Github profile can be reached at <a href='https://github.com/bobbydwise1'>at this link</a></p>
 
         <p>Below are listed some software projects I have worked on:</p>

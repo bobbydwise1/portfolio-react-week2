@@ -3,7 +3,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 
 function Header() {
   const compBox = {
-    border: "solid grey",
+    border: "solid darkgreen",
     color: "green",
     backgroundColor: "black",
     padding: "20px"
@@ -17,7 +17,7 @@ function Header() {
 
   const imgBox = {
     display: "grid",
-    border: "solid grey",
+    border: "solid darkgreen",
     backgroundColor: "black"
   }
 

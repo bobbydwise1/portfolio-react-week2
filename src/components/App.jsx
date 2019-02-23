@@ -26,7 +26,7 @@ class App extends React.Component {
     }
 
     const compBox = {
-      border: "solid grey",
+      border: "solid darkgreen",
       color: "green",
       backgroundColor: "black",
       padding: "20px"
@@ -40,7 +40,7 @@ class App extends React.Component {
 
     const imgBox = {
       display: "grid",
-      border: "solid grey",
+      border: "solid darkgreen",
       backgroundColor: "black"
     }
 

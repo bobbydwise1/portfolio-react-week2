@@ -4,7 +4,7 @@ import Resume from './Resume';
 
 function Exp(){
   const compBox = {
-    border: "solid grey",
+    border: "solid darkgreen",
     color: "green",
     backgroundColor: "black",
     padding: "20px"

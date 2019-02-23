@@ -7,7 +7,7 @@ import ZerosOnes from '../assets/images/ZerosOnes.png';
 
 function About(){
   const compBox = {
-    border: "solid grey",
+    border: "solid darkgreen",
     color: "green",
     backgroundColor: "black",
     padding: "20px"
@@ -21,7 +21,7 @@ function About(){
 
   const imgBox = {
     display: "grid",
-    border: "solid grey",
+    border: "solid darkgreen",
     backgroundColor: "black"
   }
 

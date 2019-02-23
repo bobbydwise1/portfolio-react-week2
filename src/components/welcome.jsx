@@ -8,7 +8,7 @@ import OnesZeros from '../assets/images/OnesZeros.png';
 
 function Welcome(){
   const compBox = {
-    border: "solid grey",
+    border: "solid darkgreen",
     color: "green",
     backgroundColor: "black",
     padding: "20px"
@@ -22,7 +22,7 @@ function Welcome(){
 
   const imgBox = {
     display: "grid",
-    border: "solid grey",
+    border: "solid darkgreen",
     backgroundColor: "black"
   }
 
